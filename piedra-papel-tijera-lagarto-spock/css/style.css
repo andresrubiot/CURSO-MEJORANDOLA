@@ -1,0 +1,19 @@
+body{
+	background-color: #333366;
+	color: #FFF;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#player{
+	float: left;
+	width: 40%;
+}
+
+#javascript{
+	float: right;
+	width: 40%;
+}
+article img{
+	cursor: pointer;
+}
