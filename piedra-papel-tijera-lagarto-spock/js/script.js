@@ -10,7 +10,7 @@ function playerOpc(opc){
 
 	if ((opc==0) && (javascriptOpc==3) || (opc==0) && (javascriptOpc==2)) {
 		alert("Ganaste!!!");
-	}else if ((opc==1) && (javascriptOpc==1) || (opc==1) && (javascriptOpc==4)) {
+	}else if ((opc==1) && (javascriptOpc==0) || (opc==1) && (javascriptOpc==4)) {
 		alert("Ganaste!!!");
 	}else if ( (opc==2) && (javascriptOpc==1) || (opc==2) && (javascriptOpc==3) ) {
 		alert("Ganaste!!!");
