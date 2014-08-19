@@ -3,15 +3,43 @@
 <head>
 	<meta charset="utf-8">
 	<title>POKEMON</title>
+	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="js/script.js">
 	</script>
 </head>
 <body>
-	<h1>Pokemon</h1>
-	<h2 id="nombrePokemon">Nombre Pokemon de prueba</h2>
-	<p id="datosPokemon">Datos de prueba</p>
-	<script type="text/javascript">
-		inicio();
-	</script>
+	<header>
+		<h1>Pokemon</h1>
+	</header>
+	<section id="pokeballs">
+		<h2>Elige tu pokemon</h2>
+		<script type="text/javascript">
+			bolas1();
+		</script>
+	</section>
+	<section id="pokeballs">
+		<h2>Elige tu pokemon</h2>
+		<script type="text/javascript">
+			bolas2();
+		</script>
+	</section>
+	<section id="elegido1">
+		<article>
+			<h3 id="nombrePokemon1">Nombre Pokemon</h3>
+			<!-- <p id="imagenPokemon1">Imagen</p> -->
+			<p id="datosPokemon1">Datos Pokemon</p>
+			<p id="batalla1">Batalla</p>
+			<input type="hidden" id="ataque1">
+		</article>
+	</section>
+	<section id="elegido2">
+		<article>
+			<h3 id="nombrePokemon2">Nombre Pokemon</h3>
+			<!-- <p id="imagenPokemon2">Imagen</p> -->
+			<p id="datosPokemon2">Datos Pokemon</p>
+			<p id="batalla2">Ballata</p>
+			<input type="hidden" id="ataque2" onchange="resultado();">
+		</article>
+	</section>
 </body>
-</html>
+</html

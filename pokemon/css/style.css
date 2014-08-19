@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background: #00BED4;
+	font-family: Helvetica,Arial;
+	font-size: 16px;
+}
+
+header{
+	text-align: center;
+}
+
+h2{
+	color: #FFF;
+	text-align: center;
+}
+
+section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#pokeballs{
+	background:#222222;
+	border-radius: 10px;
+
+	margin: 25px;
+	padding: 25px;
+	width: 40%;
+}
+
+.balls{
+	display: inline-block;
+	cursor: pointer;
+	margin: 20px;
+}
+
+.pokeballRed{
+	background: #EF4036;
+	border-radius: 100px 100px 0px 0px;
+	height: 50px;
+	margin: 10px 0px 0px 10px;
+	width: 100px;
+}
+
+.pokeballBlack{
+	background:#58585A;
+	border-radius: 9px 9px 6px 6px;
+	height: 25px;
+	margin:-75px 10px;
+	width: 100px;
+}
+
+.pokeballCircle{
+	background: #58585A;
+	border-radius: 50px;
+	margin: 43px 40px;
+	height: 40px;
+	width: 40px;
+
+}
+
+.pokeballCircle2{
+	background: #FFF;
+	border-radius: 50px;
+	margin: -78px 0px 0px 45px;
+	height: 30px;
+	width: 30px;
+}
+
+.pokeballWhite{
+	background: #FFF;
+	border-radius: 0px 0px 100px 100px;
+	height: 50px;
+	margin: -1px 0px 10px 10px;
+	width: 100px;
+}
+
+#elegido1{
+	background:#222222;
+	border-radius: 10px;
+	color: #FFF;
+	height: 400px;
+	margin: 25px;
+	padding: 25px;
+	width: 40%;
+}
+
+#elegido2{
+	background:#222222;
+	border-radius: 10px;
+	color: #FFF;
+	height: 400px;
+	margin: 25px;
+	padding: 25px;
+	width: 40%;
+}
